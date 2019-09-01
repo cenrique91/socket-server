@@ -3,7 +3,7 @@ import router from "./routes/router";
 import bodyParser from "body-parser";
 import cors from "cors";
 
-const server = new Server();
+const server = Server.instance;
 
 // BodyParser
 // aca abajo toma lo que sea que le poosteen y lo convierte en un objeto json
